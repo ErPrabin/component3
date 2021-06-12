@@ -31,6 +31,10 @@ p.card-text-1 {
     font-weight: 500;
 }
 
+button.btn-danger {
+    margin-right: 185px;
+}
+
 h4.welcome {
     color: white;
 }
