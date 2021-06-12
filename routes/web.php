@@ -46,7 +46,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
             ->name('register');
     // }
 
-    Route::post('/register', [RegisteredUserController::class, 'store'])
+    Route::post('check/register', [RegisteredUserController::class, 'store'])
         ->middleware(['guest:'.config('fortify.guard')]);
 // }
 
